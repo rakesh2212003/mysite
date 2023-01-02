@@ -403,6 +403,7 @@ footer ul li a:hover::before{
     width: 80%;
     height: auto;
     padding: 30px 0 0 0;
+	/* border-radius: 40px; */
 }
 .head{
     color: #fff;
@@ -465,4 +466,18 @@ footer ul li a:hover::before{
 .btn3:hover{
     background: #f8d467;
     color: #8c6c07;
+}
+/* Project 4 */
+.project4{
+    width: 100%;
+    height: auto;
+    background: #222426;
+}
+.btn4{
+    color: #ffffff;
+    background: #21afb4;
+}
+.btn4:hover{
+    background: #2c6c70;
+    color: #ffffff;
 }

@@ -17,6 +17,8 @@ body{
 html::-webkit-scrollbar{
     display: none;
 }
+
+/*!Index.html*/
 /* Custom Scroll Bar */
 .progress{
     position: fixed;
@@ -65,7 +67,7 @@ ul li a:hover {
     color: #666666;
 }
 /* Top Container */
-.top{
+.top-container{
     width: 100%;
     height: 650px;
     margin: 0;
@@ -74,7 +76,7 @@ ul li a:hover {
     overflow: hidden;
     background: var(--bg-color);
 }
-.top::before{
+.top-container::before{
     content: '';
     position: absolute;
     bottom: 0;
@@ -89,14 +91,14 @@ ul li a:hover {
     top: 5%;
     z-index: 9;
 }
-h1{
+#name{
     text-align: center;
     font-family: 'Tangerine', cursive;
     font-size: 135px;
     margin: 5px auto 0 auto;
     color: var(--second-color);
 }
-#p1{
+#designation{
     text-align-last: center;
     margin: 0;
     font-family: 'Baloo Chettan 2', cursive;
@@ -286,7 +288,8 @@ h3{
     padding: 10px 20px 10px 20px;
     text-decoration: none;
     position: relative;
-    top: 20px;
+    top: 50px;
+	transition: 0.3s;
 }
 .btn:hover{
     background: #30e3cb;
@@ -383,7 +386,8 @@ footer ul li a:hover::before{
     color: orange;
     text-decoration: none;
 }
-/* Portfolio */
+
+/*! Portfolio.html */
 .profile a{
     text-decoration: none;
     font-weight: 600;
@@ -425,6 +429,7 @@ footer ul li a:hover::before{
     padding: 0 5% 0 5%;
     color: #fff;
 }
+/*project 1*/
 .mainbtn{
     color: #fff;
     background: #4299ed;
@@ -443,6 +448,7 @@ footer ul li a:hover::before{
     color: #fff;
     background: #1680e6;
 }
+/*project-2*/
 .project2{
     width: 100%;
     height: auto;
@@ -454,6 +460,7 @@ footer ul li a:hover::before{
 .btn2:hover{
     background: #00272e;
 }
+/*project 3*/
 .project3{
     width: 100%;
     height: auto;
